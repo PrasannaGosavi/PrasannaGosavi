@@ -3,7 +3,23 @@ Hi 👋 I’m Prasanna Gosavi<br>🎓 B.Tech (AI & ML) Student<br>🤖 Exploring
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_g_o_s_a_v_i_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/PrasannaGosavi) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@Prasann2209) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:prasannagosavi4@gmail.com) 
+<p align="left">
+  <a href="https://www.linkedin.com/in/gosavi2006/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40"/>
+  </a>
+
+  <a href="https://www.youtube.com/@Prasanna2209" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/youtube/youtube-original.svg" width="40"/>
+  </a>
+
+  <a href="https://www.instagram.com/_g_o_s_a_v_i_/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" width="40"/>
+  </a>
+
+  <a href="mailto:prasannagosavi4@gmail.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="40"/>
+  </a>
+</p>
 
 # 💻 Tech Stack:
 <p align="left">

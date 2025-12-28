@@ -3,23 +3,28 @@ Hi 👋 I’m Prasanna Gosavi<br>🎓 B.Tech (AI & ML) Student<br>🤖 Exploring
 
 
 ## 🌐 Socials:
+
 <p align="left">
   <a href="https://www.linkedin.com/in/gosavi2006/" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="40"/>
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="40" />
   </a>
+  &nbsp;&nbsp;
 
   <a href="https://www.youtube.com/@Prasanna2209" target="_blank">
-    <img src="https://cdn.simpleicons.org/youtube/FF0000" width="40"/>
+    <img src="https://cdn.simpleicons.org/youtube/FF0000" height="40" />
   </a>
+  &nbsp;&nbsp;
 
   <a href="https://www.instagram.com/_g_o_s_a_v_i_/" target="_blank">
-    <img src="https://cdn.simpleicons.org/instagram/E4405F" width="40"/>
+    <img src="https://cdn.simpleicons.org/instagram/E4405F" height="40" />
   </a>
+  &nbsp;&nbsp;
 
   <a href="mailto:prasannagosavi4@gmail.com">
-    <img src="https://cdn.simpleicons.org/gmail/D14836" width="40"/>
+    <img src="https://cdn.simpleicons.org/gmail/D14836" height="40" />
   </a>
 </p>
+
 
 
 # 💻 Tech Stack:

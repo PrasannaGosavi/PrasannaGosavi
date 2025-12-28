@@ -5,21 +5,22 @@ Hi 👋 I’m Prasanna Gosavi<br>🎓 B.Tech (AI & ML) Student<br>🤖 Exploring
 ## 🌐 Socials:
 <p align="left">
   <a href="https://www.linkedin.com/in/gosavi2006/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40"/>
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="40"/>
   </a>
 
   <a href="https://www.youtube.com/@Prasanna2209" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/youtube/youtube-original.svg" width="40"/>
+    <img src="https://cdn.simpleicons.org/youtube/FF0000" width="40"/>
   </a>
 
   <a href="https://www.instagram.com/_g_o_s_a_v_i_/" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" width="40"/>
+    <img src="https://cdn.simpleicons.org/instagram/E4405F" width="40"/>
   </a>
 
   <a href="mailto:prasannagosavi4@gmail.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="40"/>
+    <img src="https://cdn.simpleicons.org/gmail/D14836" width="40"/>
   </a>
 </p>
+
 
 # 💻 Tech Stack:
 <p align="left">

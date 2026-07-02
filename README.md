@@ -40,22 +40,22 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gosavi2006/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+    <img src="https://cdn.simpleicons.org/linkedin/0077B5" width="40" height="40" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.youtube.com/@Prasanna2209" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
-  </a>
+    <img src="https://cdn.simpleicons.org/youtube/FF0000" width="40" height="40" alt="YouTube" />
+  </a>&nbsp;&nbsp;
   <a href="https://leetcode.com/u/prasannagosavi/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
+    <img src="https://cdn.simpleicons.org/leetcode/FFA116" width="40" height="40" alt="LeetCode" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.hackerrank.com/profile/Prasannagosavi4" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
-  </a>
+    <img src="https://cdn.simpleicons.org/hackerrank/2EC866" width="40" height="40" alt="HackerRank" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.instagram.com/_g_o_s_a_v_i_/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
+    <img src="https://cdn.simpleicons.org/instagram/E4405F" width="40" height="40" alt="Instagram" />
+  </a>&nbsp;&nbsp;
   <a href="mailto:Prasannagosavi4@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://cdn.simpleicons.org/gmail/D14836" width="40" height="40" alt="Gmail" />
   </a>
 </p>
 
@@ -94,7 +94,7 @@
   GIF hosting needed). Sits well under your skills section.
 -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PrasannaGosavi/PrasannaGosavi/main/assets/coding-warrior.svg" width="700" alt="animated coding warrior banner" />
+  <img src="https://raw.githubusercontent.com/PrasannaGosavi/PrasannaGosavi/main/coding-warrior.svg" width="700" alt="animated coding warrior banner" />
 </p>
 
 ---
@@ -119,7 +119,7 @@
 ### 🏆 LeetCode Stats
 
 <p align="center">
-  <img src="https://leetcode-stats-badge.herokuapp.com/?username=prasannagosavi" />
+  <img src="https://leetcode-stats-six.vercel.app/?username=prasannagosavi&theme=dark" />
 </p>
 
 ---

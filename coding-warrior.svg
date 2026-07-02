@@ -1,1 +1,141 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#1a0033"/>
+    </linearGradient>
+    <linearGradient id="armor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a55"/>
+      <stop offset="100%" stop-color="#15151f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a020f0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a020f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#0077ff"/>
+    </linearGradient>
+  </defs>
 
+  <!-- background -->
+  <rect width="900" height="320" fill="url(#bg)"/>
+
+  <!-- floating stars / particles -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="140" cy="90" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="60" r="1.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="140" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="250" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="40" cy="260" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ambient glow behind figure -->
+  <circle cx="330" cy="180" r="150" fill="url(#glow)">
+    <animate attributeName="r" values="140;170;140" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- floating library / tech labels drifting up -->
+  <g font-family="Fira Code, monospace" font-size="16" fill="#a020f0" font-weight="600">
+    <text x="600" y="260">import numpy as np
+      <animate attributeName="y" values="260;40;260" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="650" y="290" fill="#00e5ff">import pandas as pd
+      <animate attributeName="y" values="290;60;290" dur="11s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="11s" begin="1.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="590" y="310" fill="#ff6ec7">model.fit(X_train, y_train)
+      <animate attributeName="y" values="310;80;310" dur="10s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="10s" begin="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="640" y="300" fill="#7CFC00">df.describe()
+      <animate attributeName="y" values="300;100;300" dur="8.5s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="8.5s" begin="0.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- desk -->
+  <rect x="150" y="255" width="360" height="10" rx="3" fill="#2a2a3a"/>
+  <rect x="170" y="265" width="14" height="45" fill="#1c1c2a"/>
+  <rect x="446" y="265" width="14" height="45" fill="#1c1c2a"/>
+
+  <!-- laptop base -->
+  <rect x="230" y="230" width="180" height="14" rx="3" fill="#20202e" stroke="#3d3d55" stroke-width="1.5"/>
+  <!-- laptop screen -->
+  <rect x="248" y="150" width="144" height="82" rx="4" fill="#0e0e18" stroke="#3d3d55" stroke-width="2"/>
+  <rect x="256" y="158" width="128" height="66" rx="2" fill="url(#screen)" opacity="0.85">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <!-- code lines on screen -->
+  <g stroke="#0a0a12" stroke-width="2.5" stroke-linecap="round" opacity="0.8">
+    <line x1="262" y1="168" x2="320" y2="168"/>
+    <line x1="262" y1="176" x2="345" y2="176"/>
+    <line x1="270" y1="184" x2="330" y2="184"/>
+    <line x1="262" y1="192" x2="300" y2="192"/>
+    <line x1="270" y1="200" x2="360" y2="200"/>
+    <line x1="262" y1="208" x2="310" y2="208">
+      <animate attributeName="x2" values="262;340;262" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- ===== armored coder figure ===== -->
+  <g>
+    <!-- subtle bob animation for whole figure -->
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-4; 0,0" dur="3s" repeatCount="indefinite"/>
+
+    <!-- cape -->
+    <path d="M 300 120 Q 250 180 265 250 L 300 235 Z" fill="#2b0b40" opacity="0.85">
+      <animate attributeName="d"
+        values="M 300 120 Q 250 180 265 250 L 300 235 Z;
+                 M 300 120 Q 245 185 268 252 L 300 235 Z;
+                 M 300 120 Q 250 180 265 250 L 300 235 Z"
+        dur="2.6s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- torso / armor -->
+    <path d="M 300 130 L 360 130 Q 380 160 372 210 L 288 210 Q 280 160 300 130 Z" fill="url(#armor)" stroke="#5a5a7a" stroke-width="2"/>
+    <!-- chest emblem -->
+    <circle cx="330" cy="165" r="10" fill="#a020f0">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- shoulder plates -->
+    <ellipse cx="292" cy="135" rx="16" ry="12" fill="#40405a" stroke="#5a5a7a" stroke-width="1.5"/>
+    <ellipse cx="368" cy="135" rx="16" ry="12" fill="#40405a" stroke="#5a5a7a" stroke-width="1.5"/>
+
+    <!-- arms reaching to keyboard -->
+    <path d="M 296 150 Q 270 190 288 228" fill="none" stroke="#40405a" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 364 150 Q 392 190 372 228" fill="none" stroke="#40405a" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- gauntlet hands typing -->
+    <circle cx="288" cy="230" r="9" fill="#2a2a3a">
+      <animate attributeName="cy" values="230;226;230" dur="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="372" cy="230" r="9" fill="#2a2a3a">
+      <animate attributeName="cy" values="230;227;230" dur="0.45s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- helmet / head -->
+    <path d="M 312 90 Q 330 78 348 90 L 350 122 Q 330 132 310 122 Z" fill="#3a3a55" stroke="#5a5a7a" stroke-width="2"/>
+    <!-- helmet crest -->
+    <path d="M 330 78 L 326 60 L 334 60 Z" fill="#a020f0"/>
+
+    <!-- glowing eyes -->
+    <ellipse cx="322" cy="103" rx="4" ry="2.4" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="338" cy="103" rx="4" ry="2.4" fill="#00e5ff">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- title text -->
+  <text x="450" y="40" font-family="Fira Code, monospace" font-size="22" fill="#ffffff" font-weight="700" text-anchor="middle">
+    Coding through data, one model at a time
+  </text>
+  <text x="450" y="65" font-family="Fira Code, monospace" font-size="14" fill="#a78bfa" text-anchor="middle">
+    AI / ML • Python • Deep Learning
+  </text>
+</svg>

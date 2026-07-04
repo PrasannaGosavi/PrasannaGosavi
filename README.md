@@ -40,7 +40,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gosavi2006/" target="_blank">
-    <img src="https://cdn.simpleicons.org/linkedin/0077B5" width="40" height="40" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>&nbsp;&nbsp;
   <a href="https://www.youtube.com/@Prasanna2209" target="_blank">
     <img src="https://cdn.simpleicons.org/youtube/FF0000" width="40" height="40" alt="YouTube" />
@@ -65,10 +65,6 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css,sql,r&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,flask,django,fastapi&theme=dark" />
 </p>
 
 <p align="center">
